@@ -1,1290 +1,2581 @@
-body
-{  margin-left:auto;
-   margin-right:auto;
-   margin-top: 10px;
-   margin-bottom: 20px;
-   background-color: #e6e6e6;
-   background-image: url(../images/BckGrd.png);
-   background-repeat: repeat-y;
-   background-position: center top;
-   BEHAVIOR: url(csshover.htc)
-}
-
-#page
-{  	height: auto;
-	width: 1050px;
-	margin-right: auto;
-	margin-left: auto;
-}
-#header
-{
-	text-align: right;
-	margin-left:200px;
-	margin-top:0px;
-	width: 650px;
-	height:130px;
-	background-color: #FFFFFF;
-	background-image:url(../images/BarBottomHeader.png);
-	background-repeat: repeat-x;
-	background-position: right bottom;
-   
-}
-#headerLogo
-{  float: left;
-   margin-top:0px;
-}
-#headerSlogan
-{  margin-right: 10px;
-   margin-top:0px;
-}
-
-#menu
-{   float: right;
-    width: 650px;
-	margin-top: 0px;
-    margin-bottom: 10px;
-}
-#submenu A ESSAYER SANS L'AUTRE
-{   float: left top;
-    width: 150px;
-	background-color: #FFFFFF;
-	margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-#content
-{	text-align: left;
-    margin-left:200px;
-	clear:right;
-	width: 640px;
-	color: #4d4d4d;
-    background-color: #FFFFFF;
-    margin-top: 35px;
-	padding: 5px;
-}
-
-#SquareRight
-{   float:right;
-    width: 140px;
-	clear:both;
-	background-color: #f5f5f5;
-	background-image:url(../images/BarTopSubMenuTitle.png);
-	background-position: Top Center;
-	background-repeat:repeat-x;
-	position:absolute;
-	margin-left: 865px;
-	margin-top:45px;
-    margin-bottom: 0px;
-}
-
-#TaxCredit {
-   float:left;
-   clear:both;
-   width: 140px;
-   background-color: #c3c3c3;
-   background-image:url(../images/BarBottomTaxCredit.png);
-   background-repeat:repeat-x;
-   background-position:bottom left;
-   margin-left: 45px;
-   margin-bottom: 0px;
-   font-family: Arial;
-   font-size: 11px;
-}
-
-#GoToTopOfPage {
-   margin-left:110px;
-   text-align:left;
-}   
-#GoToTopOfPage a{
-   text-decoration:none;
-   font-family: tahoma;
-   font-size: 9px;
-   font-weight:bold;
-   color: #cc0000;
-}   
-#GoToTopOfPage a:hover{
-   text-decoration:underline;
-}   
-
-
-#footer
-{  margin-left:250px;
-   text-align:center;
-   width: 550px;
-   height:40px;
-   clear:both;
-   background-image:url(../images/BckGrdFooter.png);
-   background-repeat:repeat-x;
-   background-position:center top;
-}
-
-#ProductPicture {
-   float:right;
-   margin-left:10px;
-}
-
-#MenuVert H1{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   line-height: 1em;
-   color: #cc0000;
-   text-align:center;
-   text-decoration:none;
-}   
-#MenuVert H1:hover{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   line-height: 1em;
-   color: #666666;
-   text-align:center;
-   text-decoration:none;
-}   
-#MenuVert H2{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   color: #666666;
-   text-align:center;
-   text-decoration:none;
-   padding-top:7px;
-}   
-#MenuVert H2:hover{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   color: #cc0000;
-   text-align:center;
-   text-decoration:none;
-   padding-top:7px;
-}   
-#MenuVert H3{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   color: #666666;
-   text-align:center;
-   text-decoration:none;
-}   
-#MenuVert H3:hover{
-   font-family: Arial;
-   font-size: 14px;
-   font-weight: bold;
-   color: #cc0000;
-   text-align:center;
-   text-decoration:none;
-}   
-#MenuVert H4{
-   font-family: Arial;
-   font-size: 12px;
-   font-weight: bold;
-   color: #666666;
-   text-align:center;
-   text-decoration:none;
-}   
-
-
-
-
-
-/* CSS for VERTICAL MENU */
-#MenuVert
-{   float:left;
-    width: 140px;
-	vertical-align:middle;
-	background-color: #f5f5f5;
-	background-image:url(../images/BarTopSubMenuTitle.png);
-	background-position: Top Center;
-	background-repeat:repeat-x;
-	vertical-align:middle;
-	margin-left: 45px;
-	margin-top: 45px;
-    margin-bottom: 0px;
-}
-
-
-
-/* Style de tous les niveaux */
-DIV#MenuVert A {
-	font-family: Arial;
-	font-size: 12px;
-	background-image:url(../images/BarBottomSubMenuOff.png);
-	background-position: bottom right;
-	min-height:45px;
-	background-repeat: no-repeat;	
-	color: #666666;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-
-
-}
-DIV#MenuVert A:hover {
-	font-family: Arial;
-	font-size: 12px;
-    color: #cc0000;
-	background:url(../images/BarBottomSubMenuOn.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	background-color: #f5f5f5;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-
-DIV#MenuVert UL {
-	width: 140px;
-	background-color: #f5f5f5;
-	margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: Arial;
-	font-size: 12px;
-	text-decoration:none;
-	text-align:left;
-	padding: 0px;
-}
-/* Menu survolé quand il n'existe pas de niveau inférieur */ 
-DIV#MenuVert LI:hover {
-    text-decoration:none;
-	text-align:left;
-}
-/* Menu niveau survolé quand il existe un niveau en dessous */ 
-DIV#MenuVert LI.SubMenuVert:hover {
-	text-decoration:none;
-}
-/* Rajout d'une petite fleche pour les sous menu */ 
-div#MenuVert li.SubMenuVert {
-    background:url(../images/BarBottomSubMenuOffArrow.png);
-	background-repeat: no-repeat;
-	background-position:bottom right;
-	margin-left:0px;
-	margin-right:0px;
-}
-
-DIV#MenuVert UL LI {
-	position:relative; list-style: none;
-}
-DIV#MenuVert UL UL {
-	position: absolute; top: 0px; left: 140px;
-	 display:none
-}
-DIV#MenuVert LI A {
-	text-decoration: none; padding: 4px 0px 4px 0px; display:block; width:auto
-}
-
-
-DIV#MenuVert UL.SubMenuVertFirst LI.SubMenuVert:hover UL.SubMenuVertSecond {
-	DISPLAY: block
-}
-
-DIV#MenuVert UL.SubMenuVertSecond LI.SubMenuVert:hover UL.SubMenuVertThird {
-	DISPLAY: block
-}
-
-.SubMenuVertSelectedAct {
-	font-family: Arial;
-	font-size: 12px;
-	min-height:45px;
-    color: #cc0000;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-.SubMenuVertSelected {
-	font-family: Arial;
-	font-size: 12px;
-	background:url(../images/BarBottomSubMenuOn.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	min-height:45px;
-    color: #cc0000;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-.SubMenuVertSelectedInact {
-	font-family: Arial;
-	font-size: 12px;
-	min-height:45px;
-    color: #cc0000;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-.SubMenuVertUnselectedInact {
-	font-family: Arial;
-	font-size: 12px;
-	min-height:45px;
-    color: #666666;
-	text-decoration:none;
-	text-align: left;
-    margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-}
-
-
-
-/* CSS for HORIZONTAL MENU */
-.MenuDeroul {
-	display:block;
-	margin-left:-200px;
-	margin-top:0px;
-	padding:0px;
-	width:auto;
-    }
-
-.MenuDeroul ul{
-    position:absolute;
-    display:block;
-    width:650px;
-    /*margin:0;*/
-    padding:0px;
-	}
-    
-.MenuDeroul li ul{
-    visibility:hidden;
-    }
-
-.MenuDeroul li li ul{
-    position:absolute;
-    margin-left:130px;
-    margin-top:-44px;
-}
-    
-.MenuDeroul li{
-    width:130px;
-    height:auto;
-	display:inline;
-    display/**/:block;
-    float:none;
-    float/**/:left;
-    }
-    
-.MenuDeroul li li{
-    display:block;
-    float:none;
-    }
-    
-/* sounds correct a bug under IE */
-* html .MenuDeroul li li{
-    display:inline;
-    }
-
-.MenuDeroul a{
-    background-color:#4d4d4d;
-	background-image:url(../images/BarMenuHorizOff.png);
-	background-repeat:repeat-x;
-	background-position:center bottom;
-    padding-top:4px;
-	padding-bottom:10px;
-    font-size: 12px;
-    font-family: arial;
-    text-align:center;
-    color:#FFFFFF;
-    display:block;
-    width:130px;
-    text-decoration:none;
-    }
-    
-.MenuDeroul a:hover{
-    background-color:#4d4d4d;
-    background-image: url(../images/BarMenuHorizOn.png);
-	background-repeat:repeat-x;
-	background-position:center bottom;
-    color:#ffffff;
-    }
-    
-/* enhancement for Mozilla */
-.MenuDeroul a:focus{
-    background-color:#4d4d4d;
-	background-image: url(../images/BarMenuHorizOff.png);
-	background-repeat:repeat-x;
-	background-position:center bottom;
-}
-
-a.linkOver{
-    background-color:#4d4d4d;
-}
-
-
-
-.MenuDeroulSelected {
-    background-color:#4d4d4d;
-    background-image: url(../images/BarMenuHorizOn.png);
-	background-repeat:repeat-x;
-	background-position:center bottom;
-    color:#FF3300;
-    padding-top:4px;
-	padding-bottom:10px;
-    font-size: 12px;
-    font-family: arial;
-    text-align:center;
-    display:block;
-    width:130px;
-    text-decoration:none;
-}
-.MenuDeroulSelectedAct {
-    background-color:#4d4d4d;
-    color:#FF3300;
-    padding-top:0px;
-	padding-bottom:0px;
-    font-size: 12px;
-    font-family: arial;
-    text-align:center;
-    display:block;
-    width:130px;
-    text-decoration:none;
-}
-.MenuDeroulInactive {
-    background-color:#4d4d4d;
-    background-image: url(../images/BarMenuHorizOff.png);
-	background-repeat:repeat-x;
-	background-position:center bottom;
-    color:#ffffff;
-    padding-top:4px;
-	padding-bottom:10px;
-    font-size: 12px;
-    font-family: arial;
-    text-align:center;
-    display:block;
-    width:130px;
-    text-decoration:none;
-}
-
-.ItemNameHoriz {
-   font-family: Arial;
-   font-size: 10px;
-   font-weight: normal;
-   text-decoration:none;
-   margin-left: 0px;
-}
-.ItemNameHoriz:hover {
-   font-family: Arial;
-   font-size: 10px;
-   font-weight: normal;
-   text-decoration:none;
-   margin-left: 0px;
-}
-
-/* END CSS for HORIZONTAL MENU */
-
-
-
-#Block
-{
-	text-align:left;
-	padding-left:3px;
-	padding-right:3px;
-	background-color:#f5f5f5;
-	background-image: url(none);
-	background-repeat: no-repeat;
-	background-position: Right bottom;
-}
-.BlockTableStyle {
-	width:630px;
-	border:none;
-}
-
-.BlockTableStyle th {
-	width:300px;
-	margin-top:15px;
-	font-size: 18px;
-	color: #4d4d4d;
-	font-family: Arial;
-	text-align: center;
-	line-height: 2em;
-	background-attachment: scroll;
-	background-image: url(none);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-color:#f5f5f5;
-	border:none;
-	padding: 0px;
-	font-weight: bold;
-}
-.BlockTableStyle td {
-	width:210px;
-	border:none;
-	padding: 0px;
-}
-
-.BlockRed {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.BlockRedAct {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.BlockRedAct:hover {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.BlockNormal {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none;
-	text-align:justify
-}
-
-
-#PrincipalItem
-{  text-align:justify;
-   background-color:#f5f5f5;
-   background-image: url(../images/BckGrdPalItem.png);
-   background-repeat: repeat-x;
-   background-position: top left;
-   padding:3px
-}
-
-
-
-.Square {
-	background-image:url(../images/BckGrdSquare.png);
-	border:none;
-	background-repeat:repeat-x;
-	background-position:top left;
-	background-color:#ffffff;
-	border:solid 1px;
-	border-color:#cc0000
-}
-
-
-
-
-.FloatRight {
-	float: right;
-	margin-left: 5px;
-    margin-bottom: 5px;
-}
-.FloatLeft {
-    float: left;
-	margin-right: 5px;
-    margin-bottom: 5px;
-}
-.FloatSubMenu {
-	float: left;
-	margin-right: 10px;
-    margin-bottom: 5px;
-	background-image:url(images/backgroundArrondi Large.gif);
-	background-repeat:no-repeat;
-	background-position:right top;
-}
-
-
-.ReturnToTop {
-   text-align:right;
-   font-family: tahoma;
-   font-size: 9px;
-   font-weight:bold;
-   text-decoration:none;
-   color: #cc0000;
-}   
-.ReturnToTop:hover{
-   text-decoration:underline;
-}   
-
-
-.Copyright {
-	font-family: tahoma;
-	font-size: 9px;
-	font-weight: normal;
-	color: #FFFFFF;
-}
-.Legal {
-	font-family: tahoma;
-    text-decoration:none;
-	font-size: 9px;
-	color: #CC0000;
-	font-weight: normal;
-}
-.Legal:hover {
-	font-family: tahoma;
-    text-decoration:underline;
-	font-size: 9px;
-	color: #CC0000;
-	font-weight: normal;
-}
-.LegalSelected {
-	font-family: tahoma;
-    text-decoration:underline;
-	font-size: 9px;
-	color: #CC0000;
-	font-weight: normal;
-}
-.Update {
-	texte-aling:left;
-	font-family: tahoma;
-	font-size: 9px;
-	color: #CC0000;
-	font-weight: normal;
-}
-.RedboldBullet {
-   color:#CC0000;
-   font-weight:bold
-}
-.RelatedLinksBullet {
-   color:#FFCC00;
-   font-weight:bold
-}
-
-.Address {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.AddressAct {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.AddressAct:hover {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.big14 {
-	font-family: Arial;
-	font-size: 14px;
-	color: #4d4d4d;
-	text-decoration: none;
-}
-.big14Act {
-	font-family: Arial;
-	font-size: 14px;
-	color: #4d4d4d;
-	text-decoration: none;
-}
-.big14Act:hover {
-	font-family: Arial;
-	font-size: 14px;
-	color: #CC0000;
-	text-decoration: none;
-}
-.big14bold {
-	font-family: Arial;
-	font-size: 14px;
-	color: #4d4d4d;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldBlack {
-	font-family: Arial;
-	font-size: 14px;
-	color: #000000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldBlue {
-	font-family: Arial;
-	font-size: 14px;
-	color: #3333cc;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldGreen {
-	font-family: Arial;
-	font-size: 14px;
-	color: #008000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldOrange {
-	font-family: Arial;
-	font-size: 14px;
-	color:#FF3300;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldRed {
-	font-family: Arial;
-	font-size: 14px;
-	color: #CC0000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldRedAct {
-	font-family: Arial;
-	font-size: 14px;
-	color: #CC0000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14boldRedAct:hover {
-	font-family: Arial;
-	font-size: 14px;
-	color: #4d4d4d;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big14Red {
-	font-family: Arial;
-	font-size: 14px;
-	color: #CC0000;
-	text-decoration: none;
-}
-.big16 {
-	font-family: Arial;
-	font-size: 16px;
-	color: #4d4d4d;
-	text-decoration: none;
-}
-.big16Act {
-	font-family: Arial;
-	font-size: 16px;
-	color: #4d4d4d;
-	text-decoration: none;
-}
-.big16Act:hover {
-	font-family: Arial;
-	font-size: 16px;
-	color: #CC0000;
-	text-decoration: none;
-}
-.big16bold {
-	font-family: Arial;
-	font-size: 16px;
-	color: #4d4d4d;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldBlack {
-	font-family: Arial;
-	font-size: 16px;
-	color: #000000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldBlue {
-	font-family: Arial;
-	font-size: 16px;
-	color: #3333cc;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldGreen {
-	font-family: Arial;
-	font-size: 16px;
-	color: #009900;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldRed {
-	font-family: Arial;
-	font-size: 16px;
-	color: #CC0000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldRedAct {
-	font-family: Arial;
-	font-size: 16px;
-	color: #CC0000;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16boldRedAct:hover {
-	font-family: Arial;
-	font-size: 16px;
-	color: #4d4d4d;
-	font-weight: bold;
-	text-decoration: none;
-}
-.big16Red {
-	font-family: Arial;
-	font-size: 16px;
-	color: #CC0000;
-	text-decoration: none;
-}
-.bigboldRed {
-	font-family: Arial;
-	font-size: 20px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.boldRed {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.boldRedAct {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.boldRedAct:hover {
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.default {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color::#4d4d4d;
-	text-decoration:none;
-	text-align:justify
-}
-.defaultAct {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none;
-	text-align:justify
-}
-.defaultAct:hover {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #CC0000;
-	text-decoration:none;
-	text-align:justify
-}
-.defaultboldAct {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.defaultboldAct:hover {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.defaultRed {
-	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #CC0000;
-	text-decoration:none
-}
-.defaultBlue {
-	font-family: arial;
-	font-size: 11px;
-	color: #3333cc;
-	font-weight: normal;
-	text-decoration: none;
-}
-.defaultGreen {
-	font-family: arial;
-	font-size: 11px;
-	color: #008000;
-	font-weight: normal;
-	text-decoration: none;
-}
-.defaultOrange {
-	font-family: arial;
-	font-size: 11px;
-	color:#FF3300;
-	font-weight: normal;
-	text-decoration: none;
-}
-.ItemNameVert {
-   font-family: Arial;
-   font-size: 10px;
-   font-weight: normal;
-   text-decoration:none;
-   margin-left: 0px;
-}
-.ItemNameVert:hover {
-   font-family: Arial;
-   font-size: 10px;
-   font-weight: normal;
-   text-decoration:none;
-   margin-left: 0px;
-}
-.ChapterFirstTitle {
-	font-family: arial;
-	font-size: 11px;
-	font-weight:normal;
-	font-style:italic;
-    color: #4d4d4d;
-	text-decoration:none
-}
-.ChapterFirstTitle:hover {
-	font-family: arial;
-	font-size: 11px;
-	font-weight:normal;
-	font-style:italic;
-    color: #cc0000;
-	text-decoration:none
-}
-.ChapterSecondTitle {
-	font-family: arial;
-	font-size: 13px;
-	font-weight:normal;
-	font-style:italic;
-    color: #4d4d4d;
-	text-decoration:none
-}
-.ChapterSecondTitle:hover {
-	font-family: arial;
-	font-size: 13px;
-	font-weight:normal;
-	font-style:italic;
-    color: #cc0000;
-	text-decoration:none
-}
-.ChapterThirdTitle {
-	font-family: arial;
-	font-size: 15px;
-	font-weight:bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.DirectLink {
-  	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.DirectLink:hover {
-  	font-family: arial;
-	font-size: 11px;
-	font-weight: normal;
-	color: #cc0000;
-	text-decoration:none
-}
-
-
-.medium {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.mediumAct {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.mediumAct:hover {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: normal;
-	color: #cc0000;
-	text-decoration:none
-}
-.mediumbold {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.mediumboldAct {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.mediumboldAct:hover {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.mediumboldRedOrange {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #FF3300;
-	text-decoration:none
-}
-.mediumboldRed {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.mediumboldRedAct {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.mediumboldRedAct:hover {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.mediumRed {
-	font-family: arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.MenuContact {
-   font-family: arial;
-   font-size: 11px;
-   font-weight: bold;
-   color: #4d4d4d;
-   text-decoration:none;
-}
-.MenuContactSelected {
-   font-family: arial;
-   font-size: 11px;
-   font-weight: bold;
-   color: #cc0000;
-   text-decoration:none;
-}
-.MenuContact:hover {
-	font-family: arial;C
-	font-size: 11px;
-	font-weight: bold;
-	color: #cc0000;
-	text-decoration:none
-}
-.Slogan {
-	font-family: Arial;
-	font-size: 28px;
-	font-weight: bold;
-	font-style: italic;
-	color: #CC0000;
-	text-decoration:none
-}
-.small {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.smallAct {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.smallAct:hover {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #cc0000;
-	text-decoration:none
-}
-.smallbold {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.smallboldRed {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.smallboldRedAct {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.smallboldRedAct:hover {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.smallRed {
-	font-family: arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #CC0000;
-	text-decoration:none
-}
-.TabServRed {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.TabServRed:hover {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.verybig {
-	font-family: Arial;
-	font-size: 25px;
-	font-weight: bold;
-	color: #4d4d4d;
-	text-decoration:none
-}
-.verybigRed {
-	font-family: Arial;
-	font-size: 25px;
-	font-weight: bold;
-	color: #CC0000;
-	text-decoration:none
-}
-.verysmall {
-	font-family: arial;
-	font-size: 8px;
-	font-weight: normal;
-	color: #4d4d4d;
-	text-decoration:none
-}
-
-.zoomWidth250-500 p {
-text-align:center;
-}
-.zoomWidth250-500 img {
-width:250px;
-}
-.zoomWidth250-500 img:hover {
-width:500px;
-}
-.zoomWidthW250-500 p {
-text-align:center;
-}
-.zoomWidthW250-500 img {
-width:250px;
-}
-.zoomWidthW250-500 img:hover {
-width:500px;
-}
-.zoomWidthH250-500 p {
-text-align:center;
-}
-.zoomWidthH250-500 img {
-height:250px;
-}
-.zoomWidthH250-500 img:hover {
-height:500px;
-}
-.zoomWidthW300-500 p {
-text-align:center;
-}
-.zoomWidthW300-500 img {
-width:300px;
-}
-.zoomWidthW300-500 img:hover {
-width:500px;
-}
-.zoomWidthW350-500 p {
-text-align:center;
-}
-.zoomWidthW350-500 img {
-width:350px;
-}
-.zoomWidthW350-500 img:hover {
-width:500px;
-}
-.zoomWidthW400-600 p {
-text-align:center;
-}
-.zoomWidthW400-600 img {
-width:400px;
-}
-.zoomWidthW400-600 img:hover {
-width:600px;
-}
-.zoomWidth500 p {
-text-align:center;
-}
-.zoomWidth500 img {
-width:100px;
-}
-.zoomWidth500 img:hover {
-width:500px;
-}
-.zoomWidth400 p {
-text-align:center;
-}
-.zoomWidth400 img {
-width:100px;
-}
-.zoomWidth400 img:hover {
-width:400px;
-}
-.zoomHeight400 p {
-text-align:center;
-}
-.zoomHeight400 img {
-height:80px;
-}
-.zoomHeight400 img:hover {
-height:400px;
-}
-.zoomWidth200 p {
-text-align:center;
-}
-.zoomWidth200 img {
-width:100px;
-}
-.zoomWidth200 img:hover {
-width:200px;
-}
-.zoomWidth150 p {
-text-align:center;
-}
-.zoomWidth150 img {
-width:100px;
-}
-.zoomWidth150 img:hover {
-width:150px;
-}
-a img {
-   border: none;
-}
+body
+
+{  margin-left:auto;
+
+   margin-right:auto;
+
+   margin-top: 10px;
+
+   margin-bottom: 20px;
+
+   background-color: #e6e6e6;
+
+   background-image: url(../images/BckGrd.png);
+
+   background-repeat: repeat-y;
+
+   background-position: center top;
+
+   BEHAVIOR: url(csshover.htc)
+
+}
+
+
+
+#page
+
+{  	height: auto;
+
+	width: 1050px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+#header
+
+{
+
+	text-align: right;
+
+	margin-left:200px;
+
+	margin-top:0px;
+
+	width: 650px;
+
+	height:130px;
+
+	background-color: #FFFFFF;
+
+	background-image:url(../images/BarBottomHeader.png);
+
+	background-repeat: repeat-x;
+
+	background-position: right bottom;
+
+   
+
+}
+
+#headerLogo
+
+{  float: left;
+
+   margin-top:0px;
+
+}
+
+#headerSlogan
+
+{  margin-right: 10px;
+
+   margin-top:0px;
+
+}
+
+
+
+#menu
+
+{   float: right;
+
+    width: 650px;
+
+	margin-top: 0px;
+
+    margin-bottom: 10px;
+
+}
+
+#submenu A ESSAYER SANS L'AUTRE
+
+{   float: left top;
+
+    width: 150px;
+
+	background-color: #FFFFFF;
+
+	margin-top: 5px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+#content
+
+{	text-align: left;
+
+    margin-left:200px;
+
+	clear:right;
+
+	width: 640px;
+
+	color: #4d4d4d;
+
+    background-color: #FFFFFF;
+
+    margin-top: 35px;
+
+	padding: 5px;
+
+}
+
+
+
+#SquareRight
+
+{   float:right;
+
+    width: 140px;
+
+	clear:both;
+
+	background-color: #f5f5f5;
+
+	background-image:url(../images/BarTopSubMenuTitle.png);
+
+	background-position: Top Center;
+
+	background-repeat:repeat-x;
+
+	position:absolute;
+
+	margin-left: 865px;
+
+	margin-top:45px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+#TaxCredit {
+
+   float:left;
+
+   clear:both;
+
+   width: 140px;
+
+   background-color: #c3c3c3;
+
+   background-image:url(../images/BarBottomTaxCredit.png);
+
+   background-repeat:repeat-x;
+
+   background-position:bottom left;
+
+   margin-left: 45px;
+
+   margin-bottom: 0px;
+
+   font-family: Arial;
+
+   font-size: 11px;
+
+}
+
+
+
+#GoToTopOfPage {
+
+   margin-left:110px;
+
+   text-align:left;
+
+}   
+
+#GoToTopOfPage a{
+
+   text-decoration:none;
+
+   font-family: tahoma;
+
+   font-size: 9px;
+
+   font-weight:bold;
+
+   color: #cc0000;
+
+}   
+
+#GoToTopOfPage a:hover{
+
+   text-decoration:underline;
+
+}   
+
+
+
+
+
+#footer
+
+{ 
+	margin: auto;
+
+   text-align:center;
+
+   width: 640px;
+
+   height:40px;
+
+   clear:both;
+
+   background-image:url(../images/BckGrdFooter.png);
+
+   background-repeat:repeat-x;
+
+   background-position:center top;
+
+}
+
+
+
+#ProductPicture {
+
+   float:right;
+
+   margin-left:10px;
+
+}
+
+
+
+#MenuVert H1{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   line-height: 1em;
+
+   color: #cc0000;
+
+   text-align:center;
+
+   text-decoration:none;
+
+}   
+
+#MenuVert H1:hover{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   line-height: 1em;
+
+   color: #666666;
+
+   text-align:center;
+
+   text-decoration:none;
+
+}   
+
+#MenuVert H2{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   color: #666666;
+
+   text-align:center;
+
+   text-decoration:none;
+
+   padding-top:7px;
+
+}   
+
+#MenuVert H2:hover{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   color: #cc0000;
+
+   text-align:center;
+
+   text-decoration:none;
+
+   padding-top:7px;
+
+}   
+
+#MenuVert H3{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   color: #666666;
+
+   text-align:center;
+
+   text-decoration:none;
+
+}   
+
+#MenuVert H3:hover{
+
+   font-family: Arial;
+
+   font-size: 14px;
+
+   font-weight: bold;
+
+   color: #cc0000;
+
+   text-align:center;
+
+   text-decoration:none;
+
+}   
+
+#MenuVert H4{
+
+   font-family: Arial;
+
+   font-size: 12px;
+
+   font-weight: bold;
+
+   color: #666666;
+
+   text-align:center;
+
+   text-decoration:none;
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for VERTICAL MENU */
+
+#MenuVert
+
+{   float:left;
+
+    width: 140px;
+
+	vertical-align:middle;
+
+	background-color: #f5f5f5;
+
+	background-image:url(../images/BarTopSubMenuTitle.png);
+
+	background-position: Top Center;
+
+	background-repeat:repeat-x;
+
+	vertical-align:middle;
+
+	margin-left: 45px;
+
+	margin-top: 45px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+/* Style de tous les niveaux */
+
+/* DIV#MenuVert A {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	background-image:url(../images/BarBottomSubMenuOff.png);
+
+	background-position: bottom right;
+
+	min-height:45px;
+
+	background-repeat: no-repeat;	
+
+	color: #666666;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+
+
+
+
+} */
+
+/* DIV#MenuVert A:hover {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+    color: #cc0000;
+
+	background:url(../images/BarBottomSubMenuOn.png);
+
+	background-position: bottom right;
+
+	background-repeat: no-repeat;
+
+	background-color: #f5f5f5;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+} */
+
+
+
+DIV#MenuVert UL {
+
+	width: 140px;
+
+	background-color: #f5f5f5;
+
+	margin-top: 0px;
+
+    margin-bottom: 0px;
+
+    font-family: Arial;
+
+	font-size: 12px;
+
+	text-decoration:none;
+
+	text-align:left;
+
+	padding: 0px;
+
+}
+
+/* Menu survolï¿½ quand il n'existe pas de niveau infï¿½rieur */ 
+
+DIV#MenuVert LI:hover {
+
+    text-decoration:none;
+
+	text-align:left;
+
+}
+
+/* Menu niveau survolï¿½ quand il existe un niveau en dessous */ 
+
+DIV#MenuVert LI.SubMenuVert:hover {
+
+	text-decoration:none;
+
+}
+
+/* Rajout d'une petite fleche pour les sous menu */ 
+
+div#MenuVert li.SubMenuVert {
+
+    background:url(../images/BarBottomSubMenuOffArrow.png);
+
+	background-repeat: no-repeat;
+
+	background-position:bottom right;
+
+	margin-left:0px;
+
+	margin-right:0px;
+
+}
+
+
+
+DIV#MenuVert UL LI {
+
+	position:relative; list-style: none;
+
+}
+
+DIV#MenuVert UL UL {
+
+	position: absolute; top: 0px; left: 140px;
+
+	 display:none
+
+}
+
+DIV#MenuVert LI A {
+
+	text-decoration: none; padding: 4px 0px 4px 0px; display:block; width:auto
+
+}
+
+
+
+
+
+DIV#MenuVert UL.SubMenuVertFirst LI.SubMenuVert:hover UL.SubMenuVertSecond {
+
+	DISPLAY: block
+
+}
+
+
+
+DIV#MenuVert UL.SubMenuVertSecond LI.SubMenuVert:hover UL.SubMenuVertThird {
+
+	DISPLAY: block
+
+}
+
+
+
+.SubMenuVertSelectedAct {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	min-height:45px;
+
+    color: #cc0000;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+}
+
+.SubMenuVertSelected {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	background:url(../images/BarBottomSubMenuOn.png);
+
+	background-position: bottom right;
+
+	background-repeat: no-repeat;
+
+	min-height:45px;
+
+    color: #cc0000;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+}
+
+.SubMenuVertSelectedInact {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	min-height:45px;
+
+    color: #cc0000;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+}
+
+.SubMenuVertUnselectedInact {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	min-height:45px;
+
+    color: #666666;
+
+	text-decoration:none;
+
+	text-align: left;
+
+    margin-left: 0px;
+
+	margin-right:0px;
+
+	margin-top:0px;
+
+}
+
+
+
+
+
+
+
+/* CSS for HORIZONTAL MENU */
+
+.MenuDeroul {
+
+	display:block;
+
+	margin-left:-200px;
+
+	margin-top:0px;
+
+	padding:0px;
+
+	width:auto;
+
+    }
+
+
+
+.MenuDeroul ul{
+
+    position:absolute;
+
+    display:block;
+
+    width:650px;
+
+    /*margin:0;*/
+
+    padding:0px;
+
+	}
+
+    
+
+.MenuDeroul li ul{
+
+    visibility:hidden;
+
+    }
+
+
+
+.MenuDeroul li li ul{
+
+    position:absolute;
+
+    margin-left:130px;
+
+    margin-top:-44px;
+
+}
+
+    
+
+.MenuDeroul li{
+
+    width:130px;
+
+    height:auto;
+
+	display:inline;
+
+    display/**/:block;
+
+    float:none;
+
+    float/**/:left;
+
+    }
+
+    
+
+.MenuDeroul li li{
+
+    display:block;
+
+    float:none;
+
+    }
+
+    
+
+/* sounds correct a bug under IE */
+
+* html .MenuDeroul li li{
+
+    display:inline;
+
+    }
+
+
+
+.MenuDeroul a{
+
+    background-color:#4d4d4d;
+
+	background-image:url(../images/BarMenuHorizOff.png);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+    padding-top:4px;
+
+	padding-bottom:10px;
+
+    font-size: 12px;
+
+    font-family: arial;
+
+    text-align:center;
+
+    color:#FFFFFF;
+
+    display:block;
+
+    width:130px;
+
+    text-decoration:none;
+
+    }
+
+    
+
+.MenuDeroul a:hover{
+
+    background-color:#4d4d4d;
+
+    background-image: url(../images/BarMenuHorizOn.png);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+    color:#ffffff;
+
+    }
+
+    
+
+/* enhancement for Mozilla */
+
+.MenuDeroul a:focus{
+
+    background-color:#4d4d4d;
+
+	background-image: url(../images/BarMenuHorizOff.png);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+}
+
+
+
+a.linkOver{
+
+    background-color:#4d4d4d;
+
+}
+
+
+
+
+
+
+
+.MenuDeroulSelected {
+
+    background-color:#4d4d4d;
+
+    background-image: url(../images/BarMenuHorizOn.png);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+    color:#FF3300;
+
+    padding-top:4px;
+
+	padding-bottom:10px;
+
+    font-size: 12px;
+
+    font-family: arial;
+
+    text-align:center;
+
+    display:block;
+
+    width:130px;
+
+    text-decoration:none;
+
+}
+
+.MenuDeroulSelectedAct {
+
+    background-color:#4d4d4d;
+
+    color:#FF3300;
+
+    padding-top:0px;
+
+	padding-bottom:0px;
+
+    font-size: 12px;
+
+    font-family: arial;
+
+    text-align:center;
+
+    display:block;
+
+    width:130px;
+
+    text-decoration:none;
+
+}
+
+.MenuDeroulInactive {
+
+    background-color:#4d4d4d;
+
+    background-image: url(../images/BarMenuHorizOff.png);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+    color:#ffffff;
+
+    padding-top:4px;
+
+	padding-bottom:10px;
+
+    font-size: 12px;
+
+    font-family: arial;
+
+    text-align:center;
+
+    display:block;
+
+    width:130px;
+
+    text-decoration:none;
+
+}
+
+
+
+.ItemNameHoriz {
+
+   font-family: Arial;
+
+   font-size: 10px;
+
+   font-weight: normal;
+
+   text-decoration:none;
+
+   margin-left: 0px;
+
+}
+
+.ItemNameHoriz:hover {
+
+   font-family: Arial;
+
+   font-size: 10px;
+
+   font-weight: normal;
+
+   text-decoration:none;
+
+   margin-left: 0px;
+
+}
+
+
+
+/* END CSS for HORIZONTAL MENU */
+
+
+
+
+
+
+
+#Block
+
+{
+
+	text-align:left;
+
+	padding-left:3px;
+
+	padding-right:3px;
+
+	background-color:#f5f5f5;
+
+	background-image: url(none);
+
+	background-repeat: no-repeat;
+
+	background-position: Right bottom;
+
+}
+
+.BlockTableStyle {
+
+	width:630px;
+
+	border:none;
+
+}
+
+
+
+.BlockTableStyle th {
+
+	width:300px;
+
+	margin-top:15px;
+
+	font-size: 18px;
+
+	color: #4d4d4d;
+
+	font-family: Arial;
+
+	text-align: center;
+
+	line-height: 2em;
+
+	background-attachment: scroll;
+
+	background-image: url(none);
+
+	background-repeat: no-repeat;
+
+	background-position: top center;
+
+	background-color:#f5f5f5;
+
+	border:none;
+
+	padding: 0px;
+
+	font-weight: bold;
+
+}
+
+.BlockTableStyle td {
+
+	width:210px;
+
+	border:none;
+
+	padding: 0px;
+
+}
+
+
+
+.BlockRed {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.BlockRedAct {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.BlockRedAct:hover {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.BlockNormal {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none;
+
+	text-align:justify
+
+}
+
+
+
+
+
+#PrincipalItem
+
+{  text-align:justify;
+
+   background-color:#f5f5f5;
+
+   background-image: url(../images/BckGrdPalItem.png);
+
+   background-repeat: repeat-x;
+
+   background-position: top left;
+
+   padding:3px
+
+}
+
+
+
+
+
+
+
+.Square {
+
+	background-image:url(../images/BckGrdSquare.png);
+
+	border:none;
+
+	background-repeat:repeat-x;
+
+	background-position:top left;
+
+	background-color:#ffffff;
+
+	border:solid 1px;
+
+	border-color:#cc0000
+
+}
+
+
+
+
+
+
+
+
+
+.FloatRight {
+
+	float: right;
+
+	margin-left: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.FloatLeft {
+
+    float: left;
+
+	margin-right: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.FloatSubMenu {
+
+	float: left;
+
+	margin-right: 10px;
+
+    margin-bottom: 5px;
+
+	background-image:url(images/backgroundArrondi Large.gif);
+
+	background-repeat:no-repeat;
+
+	background-position:right top;
+
+}
+
+
+
+
+
+.ReturnToTop {
+
+   text-align:right;
+
+   font-family: tahoma;
+
+   font-size: 9px;
+
+   font-weight:bold;
+
+   text-decoration:none;
+
+   color: #cc0000;
+
+}   
+
+.ReturnToTop:hover{
+
+   text-decoration:underline;
+
+}   
+
+
+
+
+
+.Copyright {
+
+	font-family: tahoma;
+
+	font-size: 9px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+}
+
+.Legal {
+
+	font-family: tahoma;
+
+    text-decoration:none;
+
+	font-size: 9px;
+
+	color: #CC0000;
+
+	font-weight: normal;
+
+}
+
+.Legal:hover {
+
+	font-family: tahoma;
+
+    text-decoration:underline;
+
+	font-size: 9px;
+
+	color: #CC0000;
+
+	font-weight: normal;
+
+}
+
+.LegalSelected {
+
+	font-family: tahoma;
+
+    text-decoration:underline;
+
+	font-size: 9px;
+
+	color: #CC0000;
+
+	font-weight: normal;
+
+}
+
+.Update {
+
+	texte-aling:left;
+
+	font-family: tahoma;
+
+	font-size: 9px;
+
+	color: #CC0000;
+
+	font-weight: normal;
+
+}
+
+.RedboldBullet {
+
+   color:#CC0000;
+
+   font-weight:bold
+
+}
+
+.RelatedLinksBullet {
+
+   color:#FFCC00;
+
+   font-weight:bold
+
+}
+
+
+
+.Address {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.AddressAct {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.AddressAct:hover {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.big14 {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #4d4d4d;
+
+	text-decoration: none;
+
+}
+
+.big14Act {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #4d4d4d;
+
+	text-decoration: none;
+
+}
+
+.big14Act:hover {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+.big14bold {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #4d4d4d;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldBlack {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #000000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldBlue {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #3333cc;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldGreen {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #008000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldOrange {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color:#FF3300;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldRed {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #CC0000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldRedAct {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #CC0000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14boldRedAct:hover {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #4d4d4d;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big14Red {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+.big16 {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #4d4d4d;
+
+	text-decoration: none;
+
+}
+
+.big16Act {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #4d4d4d;
+
+	text-decoration: none;
+
+}
+
+.big16Act:hover {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+.big16bold {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #4d4d4d;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldBlack {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #000000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldBlue {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #3333cc;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldGreen {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #009900;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldRed {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #CC0000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldRedAct {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #CC0000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16boldRedAct:hover {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #4d4d4d;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.big16Red {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+.bigboldRed {
+
+	font-family: Arial;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.boldRed {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.boldRedAct {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.boldRedAct:hover {
+
+	font-family: Arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.default {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color::#4d4d4d;
+
+	text-decoration:none;
+
+	text-align:justify
+
+}
+
+.defaultAct {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none;
+
+	text-align:justify
+
+}
+
+.defaultAct:hover {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #CC0000;
+
+	text-decoration:none;
+
+	text-align:justify
+
+}
+
+.defaultboldAct {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.defaultboldAct:hover {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.defaultRed {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.defaultBlue {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	color: #3333cc;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+}
+
+.defaultGreen {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	color: #008000;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+}
+
+.defaultOrange {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	color:#FF3300;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+}
+
+.ItemNameVert {
+
+   font-family: Arial;
+
+   font-size: 10px;
+
+   font-weight: normal;
+
+   text-decoration:none;
+
+   margin-left: 0px;
+
+}
+
+.ItemNameVert:hover {
+
+   font-family: Arial;
+
+   font-size: 10px;
+
+   font-weight: normal;
+
+   text-decoration:none;
+
+   margin-left: 0px;
+
+}
+
+.ChapterFirstTitle {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight:normal;
+
+	font-style:italic;
+
+    color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.ChapterFirstTitle:hover {
+
+	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight:normal;
+
+	font-style:italic;
+
+    color: #cc0000;
+
+	text-decoration:none
+
+}
+
+.ChapterSecondTitle {
+
+	font-family: arial;
+
+	font-size: 13px;
+
+	font-weight:normal;
+
+	font-style:italic;
+
+    color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.ChapterSecondTitle:hover {
+
+	font-family: arial;
+
+	font-size: 13px;
+
+	font-weight:normal;
+
+	font-style:italic;
+
+    color: #cc0000;
+
+	text-decoration:none
+
+}
+
+.ChapterThirdTitle {
+
+	font-family: arial;
+
+	font-size: 15px;
+
+	font-weight:bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.DirectLink {
+
+  	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.DirectLink:hover {
+
+  	font-family: arial;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #cc0000;
+
+	text-decoration:none
+
+}
+
+
+
+
+
+.medium {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.mediumAct {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.mediumAct:hover {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #cc0000;
+
+	text-decoration:none
+
+}
+
+.mediumbold {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.mediumboldAct {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.mediumboldAct:hover {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.mediumboldRedOrange {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #FF3300;
+
+	text-decoration:none
+
+}
+
+.mediumboldRed {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.mediumboldRedAct {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.mediumboldRedAct:hover {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.mediumRed {
+
+	font-family: arial;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.MenuContact {
+
+   font-family: arial;
+
+   font-size: 11px;
+
+   font-weight: bold;
+
+   color: #4d4d4d;
+
+   text-decoration:none;
+
+}
+
+.MenuContactSelected {
+
+   font-family: arial;
+
+   font-size: 11px;
+
+   font-weight: bold;
+
+   color: #cc0000;
+
+   text-decoration:none;
+
+}
+
+.MenuContact:hover {
+
+	font-family: arial;C
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #cc0000;
+
+	text-decoration:none
+
+}
+
+.Slogan {
+
+	font-family: Arial;
+
+	font-size: 28px;
+
+	font-weight: bold;
+
+	font-style: italic;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.small {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.smallAct {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.smallAct:hover {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: normal;
+
+	color: #cc0000;
+
+	text-decoration:none
+
+}
+
+.smallbold {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.smallboldRed {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.smallboldRedAct {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.smallboldRedAct:hover {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.smallRed {
+
+	font-family: arial;
+
+	font-size: 9px;
+
+	font-weight: normal;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.TabServRed {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.TabServRed:hover {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.verybig {
+
+	font-family: Arial;
+
+	font-size: 25px;
+
+	font-weight: bold;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+.verybigRed {
+
+	font-family: Arial;
+
+	font-size: 25px;
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration:none
+
+}
+
+.verysmall {
+
+	font-family: arial;
+
+	font-size: 8px;
+
+	font-weight: normal;
+
+	color: #4d4d4d;
+
+	text-decoration:none
+
+}
+
+
+
+.zoomWidth250-500 p {
+
+text-align:center;
+
+}
+
+.zoomWidth250-500 img {
+
+width:250px;
+
+}
+
+.zoomWidth250-500 img:hover {
+
+width:500px;
+
+}
+
+.zoomWidthW250-500 p {
+
+text-align:center;
+
+}
+
+.zoomWidthW250-500 img {
+
+width:250px;
+
+}
+
+.zoomWidthW250-500 img:hover {
+
+width:500px;
+
+}
+
+.zoomWidthH250-500 p {
+
+text-align:center;
+
+}
+
+.zoomWidthH250-500 img {
+
+height:250px;
+
+}
+
+.zoomWidthH250-500 img:hover {
+
+height:500px;
+
+}
+
+.zoomWidthW300-500 p {
+
+text-align:center;
+
+}
+
+.zoomWidthW300-500 img {
+
+width:300px;
+
+}
+
+.zoomWidthW300-500 img:hover {
+
+width:500px;
+
+}
+
+.zoomWidthW350-500 p {
+
+text-align:center;
+
+}
+
+.zoomWidthW350-500 img {
+
+width:350px;
+
+}
+
+.zoomWidthW350-500 img:hover {
+
+width:500px;
+
+}
+
+.zoomWidthW400-600 p {
+
+text-align:center;
+
+}
+
+.zoomWidthW400-600 img {
+
+width:400px;
+
+}
+
+.zoomWidthW400-600 img:hover {
+
+width:600px;
+
+}
+
+.zoomWidth500 p {
+
+text-align:center;
+
+}
+
+.zoomWidth500 img {
+
+width:100px;
+
+}
+
+.zoomWidth500 img:hover {
+
+width:500px;
+
+}
+
+.zoomWidth400 p {
+
+text-align:center;
+
+}
+
+.zoomWidth400 img {
+
+width:100px;
+
+}
+
+.zoomWidth400 img:hover {
+
+width:400px;
+
+}
+
+.zoomHeight400 p {
+
+text-align:center;
+
+}
+
+.zoomHeight400 img {
+
+height:80px;
+
+}
+
+.zoomHeight400 img:hover {
+
+height:400px;
+
+}
+
+.zoomWidth200 p {
+
+text-align:center;
+
+}
+
+.zoomWidth200 img {
+
+width:100px;
+
+}
+
+.zoomWidth200 img:hover {
+
+width:200px;
+
+}
+
+.zoomWidth150 p {
+
+text-align:center;
+
+}
+
+.zoomWidth150 img {
+
+width:100px;
+
+}
+
+.zoomWidth150 img:hover {
+
+width:150px;
+
+}
+
+a img {
+
+   border: none;
+
+}
+
