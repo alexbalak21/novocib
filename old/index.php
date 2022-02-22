@@ -1,16 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assay kits Nucleoside Metabolism - Nucleotide Assays - Active Enzymes</title>
-    <meta content="NOVOCIB &reg; 2006" name=Distribution>
- 
 
-<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/Stylesmaller.css">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+   <HEAD>
+
+	<TITLE>Assay kits Nucleoside Metabolism - Nucleotide Assays - Active Enzymes</TITLE>
+
+    <meta charset="UTF-8">
+    <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+	<META name=Title content="NovoCIB - nucleotide metabolising enzymes and nucleotide assays">
+
+	<META name=Author content="NovoCIB is french biotechnology company with unique range of purified enzymes of nucleoside biosynthesis, nucleoside kinase assay kits, nucleotide assay kits, nucleotide analytical service for studying nucleotide metabolism in cells (lbalakireva@novocib.com)">
+
+	<META name=Subject content=">
+
+	<META name=Description content="Purine metabolism, purified enzyme, assay kits">
+
+	<META name=Keywords content="Nucleoside Kinase Assay Kit, HPRT assay kit, adenosine kinase, ADK assay kit, deoxycytidine kinase, dCK Assay kit, Nucleotide Analysis Services, Freshness Control, Food Quality Control, ATP catabolites"> 
+
+	<META content=en name=Language>
+
+	<META content=" name=Expires>
+
+	<META content="NOVOCIB &reg; 2006" name=Distribution>
+
+	<META content=All name=Robots>
+
+
+
+<META content=blendTrans(Duration=.3) http-equiv=Page-Enter>
+
+<META content=blendTrans(Duration=.3) http-equiv=Page-Exit>
+
+
+
+
+
+
+
+	   <!-- css -->
+
+	   <LINK href="css/Stylesmaller.css" type=text/css rel=stylesheet>
+
+	   <LINK rel="stylesheet" media="screen" type="text/css" title="Style" href="css/Stylesmaller.css">
+
+
+
+<!-- script du menu -->
+
 <script type="text/javascript" src="JavMenu.js"></script>
+
+<!-- d�t�ction du navigateur -->
+
 <script type="text/javascript" src="navdetecteur.js"></script>
+
+
+
+<!-- important pour que les vieux navigateurs ne comprennent pas le CSS -->
+
 <style type="text/css">
 
     @import "Stylesmaller.css";
@@ -22,15 +72,12 @@
 .style11 {font-size: 12px}
 
 </style>
+
+
+
 </head>
+
 <body>
-
-
-<?php
-include 'logic/visit.php';
-logVisit();
-?>
-
 
 
 
@@ -453,5 +500,14 @@ logVisit();
 
 
 </script>
-</body>
-</html>
+
+</body></html>
+
+
+<?php
+$line = date('Y-m-d H:i:s') . " - $_SERVER[REMOTE_ADDR]";
+file_put_contents('../logs/visitors.log', $line . PHP_EOL, FILE_APPEND);
+
+?>
+
+
