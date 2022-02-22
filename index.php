@@ -1,3 +1,8 @@
+<?php
+$line = date('Y-m-d H:i:s') . " - $_SERVER[REMOTE_ADDR]";
+file_put_contents('visitors.log', $line . PHP_EOL, FILE_APPEND);
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
@@ -97,7 +102,7 @@
 
 <div id="header">
 
-  <div id="headerLogo"><a href="http://www.novocib.com" title="NovoCIB Home Page"><img src="images/logo NovoCIB1.png" width="247" height="122"/></a></div>
+  <div id="headerLogo"><a href="/" title="novocib home page"><img src="images/logo NovoCIB1.png" width="247" height="122"/></a></div>
 
     <p>&nbsp;
 
