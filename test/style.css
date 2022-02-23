@@ -21,3 +21,25 @@ form input {
 label {
     margin: 10px;
 }
+
+.visits {
+    text-align: center;
+}
+
+.visits table {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+.visits table th {
+    border: 1px solid black;
+}
+
+.visits table tr {
+    border: 1px solid black;
+}
+
+.visits table td {
+    border: 1px solid black;
+}

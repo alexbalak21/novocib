@@ -11,18 +11,13 @@
    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
    // set the PDO error mode to exception
    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-   $stmt = $conn->query("SELECT datetime FROM vlog");
-   $datetimes = $stmt->fetch();
-   var_dump ($datetimes);
-   $stmt = $conn->query("SELECT ip FROM vlog");
-   $ips = $stmt->fetch();
-   var_dump($ips);
+   $stmt = $conn->query("SELECT * FROM vlog");
+   $visits = $stmt->fetchAll(PDO::FETCH_ASSOC);
  } catch(PDOException $e) {
    echo $sql . "<br>" . $e->getMessage();
  }
  $conn = null;
- $results = array($datetimes, $ips);
- return $results;
+ return $visits;
  }
 
 

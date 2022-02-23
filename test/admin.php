@@ -8,19 +8,30 @@
     <title>Novocib - Adminin</title>
 </head>
 <body>
+    <div class="visits">
+    <h1>VISITS</h1>
+    <table>
+        <th>TIME</th>
+        <th>IP</th>
+        <th>LOCATION</th>
 <?php
 if($_POST['user'] == 'laradmin' && $_POST['passw'] == 'r9kTK#MPzq8&bM#s'){
     require_once '../model/read.php';
     $visists = readVisits();
-    foreach($visists[0] as $time){
-            var_dump($time);
-        echo "<br>";
+    $visists = array_reverse($visists);
+    foreach($visists as $visit){
+        echo "<tr>";
+        echo "<td>$visit[datetime]</td>";
+        echo "<td class='ip'>$visit[ip]</td>";
+        echo "<td id=location'></td>";
+        echo "</tr>";
     }
-
 }
-else{
+else{   
     header('Location:admin.html');
 }
 ?>
+</table>
+</div>
 </body>
 </html>
