@@ -1,0 +1,513 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+   <HEAD>
+
+	<TITLE>Assay kits Nucleoside Metabolism - Nucleotide Assays - Active Enzymes</TITLE>
+
+    <meta charset="UTF-8">
+    <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+	<META name=Title content="NovoCIB - nucleotide metabolising enzymes and nucleotide assays">
+
+	<META name=Author content="NovoCIB is french biotechnology company with unique range of purified enzymes of nucleoside biosynthesis, nucleoside kinase assay kits, nucleotide assay kits, nucleotide analytical service for studying nucleotide metabolism in cells (lbalakireva@novocib.com)">
+
+	<META name=Subject content=">
+
+	<META name=Description content="Purine metabolism, purified enzyme, assay kits">
+
+	<META name=Keywords content="Nucleoside Kinase Assay Kit, HPRT assay kit, adenosine kinase, ADK assay kit, deoxycytidine kinase, dCK Assay kit, Nucleotide Analysis Services, Freshness Control, Food Quality Control, ATP catabolites"> 
+
+	<META content=en name=Language>
+
+	<META content=" name=Expires>
+
+	<META content="NOVOCIB &reg; 2006" name=Distribution>
+
+	<META content=All name=Robots>
+
+
+
+<META content=blendTrans(Duration=.3) http-equiv=Page-Enter>
+
+<META content=blendTrans(Duration=.3) http-equiv=Page-Exit>
+
+
+
+
+
+
+
+	   <!-- css -->
+
+	   <LINK href="css/Stylesmaller.css" type=text/css rel=stylesheet>
+
+	   <LINK rel="stylesheet" media="screen" type="text/css" title="Style" href="css/Stylesmaller.css">
+
+
+
+<!-- script du menu -->
+
+<script type="text/javascript" src="JavMenu.js"></script>
+
+<!-- d�t�ction du navigateur -->
+
+<script type="text/javascript" src="navdetecteur.js"></script>
+
+
+
+<!-- important pour que les vieux navigateurs ne comprennent pas le CSS -->
+
+<style type="text/css">
+
+    @import "Stylesmaller.css";
+
+.style3 {font-size: 11px; color: #4d4d4d; text-decoration:none; font-family: arial;}
+
+.style6 {font-weight: bold; color: #CC0000; text-decoration:none; font-family: Arial;}
+
+.style11 {font-size: 12px}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<div id="page">
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 8]><div align=left class="smallRed">This site is designed for IE 8 or IE 9. We are working for compatibility with lower versions. For better convenience, please visit us with IE 8, IE 9, Google Chrome or Firefox, or any other compatible navigator</div><![endif]-->
+
+
+
+<!-- HEADER -->
+
+<div id="header">
+
+  <div id="headerLogo"><a href="/" title="novocib home page"><img src="images/logo NovoCIB1.png" width="247" height="122"/></a></div>
+
+    <p>&nbsp;
+
+    </script>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+
+ lang: en_US
+
+</script>
+
+<script type="IN/FollowCompany" data-id="5048147" data-counter="none"></script>
+
+    <div id="headerSlogan"><SPAN class=ChapterThirdTitle><em>Reliable solutions for nucleotide assessment</em></SPAN><img src="images/HorizBarMenu.gif" width=380 /></div>
+
+<div><a href="mailto:contact@novocib.com?subject=Contact" class="MenuContact" title="Contact">Contact</a>&nbsp;&nbsp;</div> <br /><br />
+
+    
+
+</div>
+
+<!-- End HEADER -->
+
+
+
+<!-- SQUARE RIGHT -->
+
+<div id="SquareRight" class="small">
+
+  
+
+  <div align="center" class=ChapterThirdTitle style4>Award</div>
+
+  <div align=center>Dr Larissa Balakireva, CEO &amp; Founder of NovoCIB, was awarded with the Trophy of
+
+      <br /><a href="http://www.aufeminin.com/evenement/femmes-en-or/" Title="Femmes en Or 2011" class="boldRedAct" target=_blank>"Femmes en Or 2011, Femme de l'Innovation"</a>
+
+      <br />in September 2011
+
+  </div>.
+
+  <div align=center><a href="http://www.aufeminin.com/evenement/femmes-en-or/" Title="Femmes en Or 2011" class="boldRedAct" target=_blank><img src="images/trophees femmes en or.jpg"/ width=68 height="100" ></a>  </div>
+
+  
+
+    
+
+</div>
+
+<!-- End SQUARE RIGHT -->
+
+
+
+
+
+<!-- MENU PRINCIPAL, HORIZONTAL -->
+
+<div id="menu">
+
+  <ul id="MenuDeroul">
+
+    <li><a href="Purified_Active_Enzymes.html"><strong>PURIFIED<br />
+
+    ENZYMES</strong></a>
+
+        <ul>
+
+            <li><a href="Recombinant_Purine_Metabolism_Enzymes.html">Purine Metabolism Enzymes</a>
+
+                <ul>
+
+                    <li><a href="IMPDH_Recombinant_Enzyme.html">IMPDH Enzymes<br /><span class="ItemNameHoriz">Inosine Monophosphate Dehydrogenase</span></a>
+
+                        <ul>
+
+                            <li><a href="Human_Recombinant_IMPDH.html">Human IMPDH</a></li>
+
+                            <li><a href="Bacterial_Recombinant_IMPDH.html">Bacterial IMPDH</a></li>
+
+                        </ul>
+
+                    </li>
+
+                    <li><a href="Human_Recombinant_PNP.html">PNP Enzyme<br /><span class=ItemNameHoriz>Purine Nucleoside Phosphorylase</span></a></li>
+
+                     <li><a href="Xanthine_Dehydrogenase_XDH.html">XDH Enzyme<br /><span class=ItemNameHoriz>Xanthine dehydrogenase</span></a></li>
+
+                    <li><a href="Human_Recombinant_HGPRT.html">HGPRT Enzyme<br /><span class=ItemNameHoriz>Hypoxanthine-guanine phosphoribosyltransferase</span></a></li>
+
+                </ul>
+
+            </li>
+
+            <li><a href="Recombinant_Nucleoside_Kinases.html">Nucleoside Kinase  Nucleotidase</a>
+
+                <ul>
+
+                    <li><a href="Recombinant_Adenosine_Kinase.html">ADK Enzyme<br /><span class=ItemNameHoriz>Adenosine Kinase</span></a></li>
+
+                    <li><a href="Recombinant_Deoxycytidine_Kinase.html">dCK Enzyme<br /><span class=ItemNameHoriz>Deoxycytidine Kinase</span></a></li>
+
+                    <li><a href="Recombinant_UMP-CMP_Kinase.html">CMK Enzyme<br /><span class=ItemNameHoriz>UMP-CMP Kinase</span></a></li>
+
+                    <li><a href="Recombinant_5'-nucleotidase.html">cN-II Enzyme<br /><span class=ItemNameHoriz>cytosolic 5'-nucleotidase II</span></a>            </li>
+
+                </ul>
+
+            </li>
+
+            <li><a href="Bacterial_Bioluminescence_Enzymes.html">Bacterial Bioluminescence Enzymes</a>
+
+                <ul>
+
+                    <li><a href="Bacterial_Luciferase.html">Bacterial Luciferase, Highly Pure<br /><span class="ItemNameHoriz">from <em>Photobacterium phosphoreum</em></span></a></li>
+
+                    <li><a href="Bacterial_FMN_Reductase.html">FMN Reductase<br /><span class="ItemNameHoriz">for Bacterial Bioluminescence</span></a>            </li>
+
+                </ul>
+
+            </li>
+
+      </ul>
+
+    </li>
+
+    <li><a href="Nucleotides_Life_Science.html"><strong>NUCLEOTIDES<br /> 
+
+      LIFE SCIENCE<br />
+
+    </strong></a>	
+
+        <ul>
+
+          <li><a href="Convenient_Assay_Kits.html">Assay Kits</a>
+
+               
+
+          <li><a href="Cellular_Nucleotides_Analysis.html">HPLC Analysis</a>
+
+        
+
+  </ul>
+
+   <li><a href="Freshness_Assay_Kits.html"><strong>NUCLEOTIDES<br />
+
+      FRESHNESS</strong></a>
+
+<ul>
+
+              <li><a href="Freshness_Principle.html">Kit Principle</a>
+
+             <li><a href="Freshness_Protocol.html">How It Works</a>
+
+             <li><a href="Case_Studies.html">Case Studies</a>
+
+            <ul><li><a href="Fish_Freshness.html">Fish</a>
+
+             <li><a href="Meat_Freshness.html">Meat</a>    
+
+             </ul></li></ul>
+
+    </li>
+
+    <li><a href="Nucleotide_Analysis_Services.html"><strong>DIETARY<br />
+
+      NUCLEOTIDES</strong></a>
+
+      <ul> 
+
+           
+
+             <li><a href="Yeast_Extract_Nucleotide_Analysis.html">Yeast Extract</a></li>
+
+            <li><a href="Infant_Formula_Nucleotide_Analysis.html">Infant Formula</a></li>
+
+            <li><a href="Aquaculture_Nucleotide_Analysis.html">Aquaculture Feed</a></li>
+
+            <li><a href="Feed_Nucleotide_Analysis.html">Feed &amp; Pet Food</a></li>
+
+            <li><a href="By-Products_Nucleotides.html">By-Products Valorisation</a></li> 
+
+            
+
+            </ul>
+
+      </li>
+
+    <li><a href="ATP_Breakdown_Assay_Kit.html"><strong>SLAUGHTER<br />
+
+      NUCLEOTIDES<br />
+
+    </strong></a>	
+
+        <ul>
+
+        <li><a href="ATP_breakdown_salmon.html">Fish </a></li>
+
+        <li><a href="ATP_breakdown_meat.html">Meat</a></li>
+
+        </ul>
+
+    </li>
+
+  </ul>
+
+
+
+</div>
+
+
+
+<!-- End MENU PRINCIPAL, HORIZONTAL -->
+
+
+
+
+
+
+
+<!-- Sub Menu, Vertical -->
+
+<div id="MenuVert">
+
+  <div align=center> 
+
+    <span class="default"><strong>Novo<span class="boldRed">CIB</span> SAS</strong> <br  />
+    2, rue Solferino 
+    <br />
+    62200 Boulogne-sur-Mer, 
+    <br />
+    France 
+    <br />
+    Phone:<a href="tel:+33391187023" style="text-decoration: none;"> +33.3.91.18.70.23 
+  </a>
+    <br />
+    <a href="mailto:contact@novocib.com" style="text-decoration: none;">contact@novocib.com </a>
+      
+  </span><br />
+
+<img src="images/lacassagne3.jpg" alt="" width="138" height="188" /></div>
+
+</div>
+
+
+
+<!-- End SUB MENU VERTICAL-->
+
+
+
+<br />
+
+<!-- Tax Credit announcement -->
+
+<!-- End Tax Credit announcement -->
+
+
+
+<!-- PAGE CONTENT -->
+
+<div id="content" class=default>
+
+
+
+   
+
+  <!-- Intro -->
+
+  <div align=justify>
+
+      <img src="images/pics belledonnegammesmall.jpg" alt="" width="639" height="157" /></h1>
+
+      <h1 class="ChapterThirdTitle">Welcome to NOVOCIB - Service and Assay Kits Supplier</h1>
+
+      
+
+      <span><span class="style11">Based on unique knowledge of <strong>nucleotide </strong>metabolism, <strong>Novo<span class="style6">CIB</span></strong> provides: 
+
+      </span><br />
+
+      <br />
+
+         <span class="RedboldBullet">&bull;</span> A<span><span class="style11">nalytical service for nucleotide quantification by HPLC</span> (<a href="http://www.novocib.com/Nucleotide_Analysis_Services.html" title="HPLC Analysis" class=boldRed>HPLC Nucleotide Analysis</a>);</span><br />
+
+<span class="RedboldBullet">&bull;</span> <span class="style11">PRECICE&reg;  One-Step assay kits for <a href="http://www.novocib.com/Convenient_Assay_Kits.html" title="Kits For Life Science" class="boldRed">Life Scientists</a> and for <a href="http://www.novocib.com/Fish_Freshness_K_Value_Assay.html" title="Freshness Control" class="boldRed">Food Industry</a></span>;<br />
+
+         <span class="RedboldBullet">&bull;</span> <span class="style11"><a href="Freshness_Assay_Kits.html" class="boldRed"> </a> Purified active enzymes of nucleotide metabolism;</span><span><br />
+
+            <span class="RedboldBullet">&bull; </span><span class="style11">Assistance in the development of new  products and ingredients enriched in nucleotides.</span><span><br /> 
+
+            </span>
+
+       
+
+      </p>
+
+  </div>
+
+  <p>
+
+    <!-- End Intro -->
+
+    <!-- End Blocks -->
+
+    </p>
+
+    <p><span class="ChapterThirdTitle">News:</span>
+
+      </p>
+
+    <p><span class="style11">08/30/2016 - Meet us in Split, Croatia, from 12th to 14th October 2016 at the 46th conference of the West European Fish Technologists&rsquo; Association ( <a href="http://wefta2016.pbf.hr">46th WEFTA</a></span>).</p>
+
+    <p><span class="style11">06/12/2016 - Meet us in Paris, France in July 18-22, 2016 at <a href="http://www.paris-irt2016.org">XXII IRT 2016</a>,  International Round Table on Nucleosides, Nucleotides and Nucleic Acids (XXII IRT) .</span>    </p>
+
+    <p> <span class="style11">08/28/2015 - Meet us in Nantes, France in October 12-15, 2015 at <a href="http://wwz.ifremer.fr/taft2015/Program">TAFT 2015</a>. Assist our presentation <strong>&ldquo;Highly active phosphatase is responsible for rapid loss of IMP nucleotide in cod muscle&rdquo;</strong> Oct. 15th at 17:05 p.m.</span> </p>
+
+    <p>
+
+      <!-- Tax Credit -->
+
+      <span class="ChapterThirdTitle">About us: </span>Founded in 2005 and<strong> l</strong>ocated in former Merck-Lipha facilities in Lyon, France, <strong>Novo<span class="boldRed">CIB</span></strong> is double Laureate of the National Contest &quot;Concours national d'aide à la création d'entreprises innovantes&quot; created by the <a href="http://www.enseignementsup-recherche.gouv.fr/pid24633/concours-national-d-aide-a-la-creation-d-entreprises-innovantes.html" Title="French Ministry of Research" target=_blank class=style3>French Ministry of Research</a> and Laureate of &ldquo;<em>Tremplin Entreprises</em>&rdquo; national contest organized by <a href="http://www.tremplin-entreprises.senat.fr/" title="French Senate" target="_blank" class="style3">French Senate</a>.
+
+      <br /><br />
+
+      <strong>NOVO<span class="boldRed">CIB</span></strong> is certified by the French Ministry of Higher Education and Research as a "Research Tax Credit" (<em>Crédit Impôt Recherche</em> - CIR) company. This agreement allows <strong>NOVO<span class="boldRed">CIB</span></strong>'s clients who are subject to corporate income tax in France to benefit from a significant tax credit upon R&D expenditures outsourced to NovoCIB.
+
+      <br />
+
+<div align=justify></div>
+
+  <!-- End Tax Credit -->
+
+  
+
+  
+
+<!-- End page content -->  
+
+</div>
+
+
+
+
+
+<!-- Go to Top of Page -->
+
+<div id="GoToTopOfPage"><a href="#top"></a>
+
+  <div align="center"></div>
+
+</div>
+
+<!-- End Go to Top of Page -->
+
+
+
+<!-- footer -->
+
+<div id="footer"><SPAN class="Update">Last Update: 2022/02/18</SPAN><SPAN class="Copyright"> &copy; All Right Reserved | Copyright &reg; NovoCIB | L.Balakireva 2022 | </SPAN><a href="http://www.novocib.com/Legal_Notice" class="Legal" valign=top title="Legal Notice">Legal Notice</a>
+
+</div>
+
+<!-- End footer -->
+
+
+
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+    initMenu();
+
+</script>
+
+
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-47165485-1', 'novocib.com');
+
+  ga('send', 'pageview');
+
+
+
+</script>
+
+</body></html>
+
+
+<?php
+$line = date('Y-m-d H:i:s') . " - $_SERVER[REMOTE_ADDR]";
+file_put_contents('../logs/visitors.log', $line . PHP_EOL, FILE_APPEND);
+
+?>
+
+
