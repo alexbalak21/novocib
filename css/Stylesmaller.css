@@ -1,12 +1,7 @@
 body
 
-{  margin-left:auto;
-
-   margin-right:auto;
-
-   margin-top: 10px;
-
-   margin-bottom: 20px;
+{ 
+margin: 0;
 
    background-color: #e6e6e6;
 
@@ -31,6 +26,8 @@ body
 	margin-right: auto;
 
 	margin-left: auto;
+
+	min-height: 100%;
 
 }
 
@@ -148,7 +145,7 @@ body
 
 	margin-left: 865px;
 
-	margin-top:45px;
+	/* margin-top:45px; */
 
     margin-bottom: 0px;
 
@@ -212,18 +209,20 @@ body
 
 }   
 
+body{
+	height:calc(100vh - 80px);
+}
 
 
 
-
-#footer
-
+.footer
 { 
+
 	margin: auto;
 
-   text-align:center;
+   text-align: center;
 
-   width: 640px;
+   width: 660px;
 
    height:40px;
 

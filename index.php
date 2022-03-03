@@ -406,11 +406,14 @@ logVisit();
 
 <!-- End Go to Top of Page -->
 
+</div>
 
+
+</div>
 
 <!-- footer -->
 
-<div id="footer"><SPAN class="Update">Last Update: 2022/02/18</SPAN><SPAN class="Copyright"> &copy; All Right Reserved | Copyright &reg; NovoCIB | L.Balakireva 2022 | </SPAN><a href="http://www.novocib.com/Legal_Notice" class="Legal" valign=top title="Legal Notice">Legal Notice</a>
+<div class="footer"><SPAN class="Update">Last Update: 2022/02/18</SPAN><SPAN class="Copyright"> &copy; All Right Reserved | Copyright &reg; NovoCIB | L.Balakireva 2022 | </SPAN><a href="http://www.novocib.com/Legal_Notice" class="Legal" valign=top title="Legal Notice">Legal Notice</a>
 
 </div>
 
@@ -420,7 +423,6 @@ logVisit();
 
 
 
-</div>
 
 
 
